@@ -15,7 +15,7 @@ int main()
     do {
         RentrerPrenom();
 
-        printf("Voulez vous quitter ?: ");
+        printf("Voulez-vous quitter ?: ");
         scanf("%s", &choix);
         system("cls");
     } while(choix != 'o');
