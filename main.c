@@ -14,7 +14,7 @@ int main()
 {
     char choix; //variable qui nous permettra de choisir un char pour quitter ou non l'application depuis le while()
 
-    do {
+    do { //utilisation d'un do while car on souhaite éxécuter une fois le while sans valider la condition de la boucle pour qu'il puisse nous demander de rentrer un choix
         RentrerPrenom(); //appel de la function RentrePrenom() présente juste au dessus
 
         printf("Voulez-vous quitter ?: ");
